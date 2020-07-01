@@ -1,0 +1,2 @@
+# Embedded-Systems-Design-Project
+This project is an application written on TM4C1294XL that acquires temperature &amp; barometric pressure from the SENSORHUB. Also, temperature and pressure values are received from weather forecast sites. Then the acquired values from SENSHUB and sites are sent to a server on port 5011 running HERCULES program in the local PC. This process is repeated every 10 seconds due to semaphores.
